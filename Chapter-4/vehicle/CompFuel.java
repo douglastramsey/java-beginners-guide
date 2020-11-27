@@ -1,18 +1,4 @@
-class Vehicle {
-    int passengers; // number of passengers
-    int fuelcap;    // fuel capacity in gallons
-    int mpg;        // fuel consumption in miles per gallon
-
-    // Return the range.
-    int range() {
-     return fuelcap * mpg;
-    }
-
-    // Compute fuel needed for a given distance.
-    double fuelneeded(int miles) {
-        return (double) miles / mpg;
-    }
-}
+package vehicle;
 
 // This class declares an object of type Vehicle.
 class CompFuel {

@@ -1,14 +1,5 @@
 // A program that uses the Vehicle class.
-class Vehicle {
-    int passengers; // number of passengers
-    int fuelcap;    // fuel capacity in gallons
-    int mpg;        // fuel consumption in miles per gallon
-
-    // Display the range.
-    void range() {
-        System.out.println("Rank is " + fuelcap * mpg);
-    }
-}
+package vehicle;
 
 // This class declares an object of type Vehicle.
 class AddMeth {
@@ -29,10 +20,10 @@ class AddMeth {
 
         System.out.println("Minivan can carry " + minivan.passengers +
                            ".");
-        minivan.range(); // display range of minivan
+        minivan.displayrange(); // display range of minivan
 
         System.out.println("Sportscar can carry " + sportscar.passengers +
                            ".");
-        sportscar.range(); // display range of sportscar
+        sportscar.displayrange(); // display range of sportscar
     }
 }

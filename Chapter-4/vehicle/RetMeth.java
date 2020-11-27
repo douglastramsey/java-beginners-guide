@@ -1,14 +1,4 @@
-// A program that uses the Vehicle class.
-class Vehicle {
-    int passengers; // number of passengers
-    int fuelcap;    // fuel capacity in gallons
-    int mpg;        // fuel consumption in miles per gallon
-
-    // Return the range.
-    int range() {
-     return fuelcap * mpg;
-    }
-}
+package vehicle;
 
 // This class declares an object of type Vehicle.
 class RetMeth {
@@ -30,8 +20,8 @@ class RetMeth {
         sportscar.mpg = 12;
 
         // compute the range assuming a full tank of gas
-        range1 = minivan.range();
-        range2 = sportscar.range();
+        range1 = minivan.returnrange();
+        range2 = sportscar.returnrange();
 
         System.out.println("Minivan can carry " + minivan.passengers +
                            " with a range of " + range1);
