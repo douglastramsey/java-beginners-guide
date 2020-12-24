@@ -48,8 +48,8 @@ class Triangle4 extends TwoDShape4 {
 
 class Shapes4 {
   public static void main(String args[]) {
-      Triangle3 t1 = new Triangle3("filled", 4.0, 4.0);
-      Triangle3 t2 = new Triangle3("outlined", 8.0, 12.0);
+      Triangle4 t1 = new Triangle4("filled", 4.0, 4.0);
+      Triangle4 t2 = new Triangle4("outlined", 8.0, 12.0);
 
       System.out.println("Info for t1: ");
       t1.showStyle();
